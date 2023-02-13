@@ -48,6 +48,7 @@
         <div class="container">
             <div class="center-box">
                 <h1>Welcome to Pizza Website</h1>
+                <p>&nbsp;</p>
                 <asp:Button ID="btnOrder" runat="server" Text="Order" OnClick="btnOrder_Click" />
                 <asp:Button ID="btnStaffLogin" runat="server" Text="Staff Login" OnClick="btnStaffLogin_Click" />
             </div>

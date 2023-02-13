@@ -50,22 +50,26 @@
     <form id="form1" runat="server">
         <div class="container">
             <div class="pizza-box">
-                <h2>Pizza 1</h2>
+                <h2>Margherita pizza </h2>
+                <h2>&nbsp;(basil and cheese)</h2>
                 <p>&nbsp;</p>
                 <asp:Button ID="btnMarg" runat="server" Text="Order Now" OnClick="btnMarg_Click"  />
             </div>
             <div class="pizza-box">
-                <h2>Pizza 2</h2>
+                <h2>Pepperoni pizza</h2>
+                <h2>&nbsp;(cheese and pepperoni)</h2>
                 <p>&nbsp;</p>
                 <asp:Button ID="btnPep" runat="server" Text="Order Now" OnClick="btnPep_Click"  />
             </div>
             <div class="pizza-box">
-                <h2>Pizza 3</h2>
+                <h2>BBQ chicken pizza</h2>
+                <h2>&nbsp;(chicken, BBQ sauce and cheese)</h2>
                 <p>&nbsp;</p>
                 <asp:Button ID="btnBBQ" runat="server" Text="Order Now" OnClick="btnBBQ_Click"  />
             </div>
             <div class="pizza-box">
-                <h2>Pizza 4</h2>
+                <h2>Hawaiian pizza </h2>
+                <h2>&nbsp;(pineapples, turkey and cheese)</h2>
                 <p>&nbsp;</p>
                 <asp:Button ID="btnSea" runat="server" Text="Order Now" OnClick="btnSea_Click"  />
             </div>
