@@ -80,9 +80,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\PizzaDatabase.mdf" />
-    <Content Include="App_Data\PizzaDatabase_log.ldf">
-      <DependentUpon>PizzaDatabase.mdf</DependentUpon>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
