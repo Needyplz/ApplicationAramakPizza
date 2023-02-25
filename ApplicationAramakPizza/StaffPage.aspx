@@ -17,7 +17,7 @@
                     <asp:BoundField DataField="Pizza" HeaderText="Pizza" SortExpression="Pizza" />
                 </Columns>
             </asp:GridView>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\PizzaDatabase.mdf;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework" DeleteCommand="DELETE FROM [UserInfo] WHERE [Id] = @Id" InsertCommand="INSERT INTO [UserInfo] ([FirstName], [LastName], [Pizza]) VALUES (@FirstName, @LastName, @Pizza)" ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [UserInfo]" UpdateCommand="UPDATE [UserInfo] SET [FirstName] = @FirstName, [LastName] = @LastName, [Pizza] = @Pizza WHERE [Id] = @Id">
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [UserInfo] WHERE [Id] = @Id" InsertCommand="INSERT INTO [UserInfo] ([FirstName], [LastName], [Pizza]) VALUES (@FirstName, @LastName, @Pizza)" SelectCommand="SELECT * FROM [UserInfo]" UpdateCommand="UPDATE [UserInfo] SET [FirstName] = @FirstName, [LastName] = @LastName, [Pizza] = @Pizza WHERE [Id] = @Id">
                 <DeleteParameters>
                     <asp:Parameter Name="Id" Type="Int32" />
                 </DeleteParameters>

@@ -18,7 +18,7 @@ namespace ApplicationAramakPizza
         }
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-    
+
             using (var db = new PizzaDatabaseEntities())
             {
                 var staff = db.StaffLogins.FirstOrDefault(s => s.Username == txtUsername.Text && s.Password == txtPassword.Text);
@@ -31,10 +31,11 @@ namespace ApplicationAramakPizza
                 }
                 else
                 {
-              
+
                     lblMessage.Text = "Incorrect username or password";
                 }
             }
+            
         }
 
         
